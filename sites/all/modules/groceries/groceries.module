@@ -1,0 +1,29 @@
+<?php
+function groceries_menu() {
+    $items = array();
+    $items['groceries_list'] = array(
+        'title' => "Groceries!",
+        'page callback' => 'show_list',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+
+    return $items;
+}
+
+function show_list() {
+    $list['Eggs'] = array(
+        'price' => '$1.99',
+        'quantity' => "2 dozen",
+    );
+
+
+    foreach ($list as $key => $price) {
+        return $key . "<br>" . $price['price'] . "<br>". $price['quantity'];
+
+    }
+
+}
+
+
+?>
