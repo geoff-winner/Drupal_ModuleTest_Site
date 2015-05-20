@@ -1,0 +1,6 @@
+[submodule "sites/all/modules/comment_buddy_module"]
+	path = sites/all/modules/comment_buddy_module
+	url = https://github.com/geoff-winner/comment_buddy_module
+[submodule "sites/all/modules/sum_module_drupal"]
+	path = sites/all/modules/sum_module_drupal
+	url = https://github.com/geoff-winner/sum_module_drupal.git
